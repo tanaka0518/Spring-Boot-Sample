@@ -11,6 +11,7 @@ import sample.service.HelloService;
 @Controller
 public class HelloController {
 
+//	DI(依存性の注入　自分でNewしてないのに使える)
 	@Autowired
 	HelloService helloService;
 
